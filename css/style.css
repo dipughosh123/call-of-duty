@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+header{
+    height:900px;
+    background-image: url('../images/call-of-duty.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.header-container1{
+    padding:20px;
+    height:80px;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    
+    width:62%;
+    
+
+}
+.header-container{
+    padding-left:200px;
+    padding-right:200px;
+    padding-top:20px;
+    padding-bottom:20px;
+    display: flex;
+}
+.navbarul1{
+    display: inline-flex;
+}
+.navbarul1 li a{
+    text-decoration:none;
+    color:white;
+    margin-left:20px;
+}
+.navbarul2{
+    display:inline-flex;
+
+    
+}
+.navbarul2 li a{
+    text-decoration: none;
+    color:white;
+    margin-left: 20px;
+}
+.header-container2{
+    padding:20px;
+    height:80px;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    
+    width:38%;
+}
+.preorder{
+    color:black !important;
+    padding:5px 10px;
+    background-color: white;
+}
+.navbarul3{
+    display: none;
+}
